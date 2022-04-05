@@ -1,8 +1,8 @@
 package com.letscode.estudoendpoint.service;
 
 import com.letscode.estudoendpoint.dto.CarRequest;
-import com.letscode.estudoendpoint.model.Car;
+import com.letscode.estudoendpoint.dto.CarResponse;
 
 public interface CarService {
-  Car create(CarRequest carRequest);
+  CarResponse create(CarRequest carRequest);
 }

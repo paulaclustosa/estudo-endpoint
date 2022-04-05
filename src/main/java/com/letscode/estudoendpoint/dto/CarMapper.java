@@ -17,7 +17,7 @@ public class CarMapper {
   public static CarResponse toCarResponse(Car car) {
     return CarResponse.builder()
         .id(car.getId())
-        .type(car.getType().toString())
+        .type(car.getType())
         .door(car.getDoor())
         .color(car.getColor())
         .build();

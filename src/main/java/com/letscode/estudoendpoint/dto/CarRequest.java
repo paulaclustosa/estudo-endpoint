@@ -1,16 +1,16 @@
 package com.letscode.estudoendpoint.dto;
 
+import com.letscode.estudoendpoint.model.Type;
 import lombok.Getter;
-import lombok.Setter;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 @Getter
 public class CarRequest {
-  @NotEmpty @NotNull
-  private String type;
-  @NotEmpty @NotNull
+  @NotNull
+  private Type type;
+  @NotNull
   private Integer door;
   @NotEmpty @NotNull
   private String color;

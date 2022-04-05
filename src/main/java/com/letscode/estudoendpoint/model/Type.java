@@ -1,5 +1,8 @@
 package com.letscode.estudoendpoint.model;
 
+import lombok.Getter;
+
+@Getter
 public enum Type {
   SUV,
   TRUCK,
@@ -11,5 +14,5 @@ public enum Type {
   SPORTS,
   DIESEL,
   CROSSOVER,
-  LUXURY,
+  LUXURY
 }
